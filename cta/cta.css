@@ -1,0 +1,40 @@
+:root{
+    --primary:#fbe0d1;
+    --secondary:#000000;
+    --font-family: "Helvetica Neue","Arial",sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.heroSection{
+    background: rgb(239,92,38);
+    background: linear-gradient(90deg, rgba(239,92,38,1) 0%, rgba(249,171,63,1) 100%, rgba(0,212,255,1) 100%);
+    height: 500px;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-family);
+}
+.heroSection h4{
+font-size: 25px;
+padding: 25px 0;
+}
+
+.heroSection p{
+    font-size: 18px;
+    padding: 25px 0;
+}
+.ctaButton{
+    padding: 25px 0;
+}
+.ctaButton > a{
+    text-decoration: none;
+    width: 180px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+}
